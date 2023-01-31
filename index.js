@@ -41,7 +41,7 @@ function setChartCanvas() {
 function setChartCanvasImage() {    
     let image = innerCanvas.toDataURL();
     let aDownloadLink = document.createElement('a');
-    aDownloadLink.download = 'grafico.png'; //Posibilidad de cambiar el nombre
+    aDownloadLink.download = 'grafico_enr'; //Posibilidad de cambiar el nombre
     aDownloadLink.href = image;
     aDownloadLink.click();
 }
@@ -55,7 +55,7 @@ pngDownload.addEventListener('click', function(){
 
 
 //// IFRAMES ////
-let githubRepo = 'visualizaciones-articulos/2023-02_mayores-censos-provincias/grafico1_evolucion_mayores_jovenes'; //Cambiar el nombre del repositorio por el que se cree
+let githubRepo = 'enr-articulo-mayores-censos-grafico1'; //Cambiar el nombre del repositorio por el que se cree
 //Iframe fijo
 let id1 = document.getElementById('iframe-fixed');
 id1.innerHTML = '<iframe src="https://EnvejecimientoEnRed/' + githubRepo + '/" style="height:720px;width:100%;" title="Gráfico Envejecimiento en Red"></iframe>';
