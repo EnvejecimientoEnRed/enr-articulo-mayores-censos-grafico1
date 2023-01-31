@@ -134,9 +134,9 @@ function displayContainer(elem) {
 window.addEventListener('resize', function() {
     setChartHeight();
     if(window.innerWidth < 500) {
-        document.getElementById('dataText').textContent = 'Datos';
+        document.getElementById('dataText').textContent = 'Notas';
     } else {
-        document.getElementById('dataText').textContent = 'Notas y datos';
+        document.getElementById('dataText').textContent = 'Notas';
     }
 });
 //// FINAL - CAMBIO NOMBRE EN NOTAS ////

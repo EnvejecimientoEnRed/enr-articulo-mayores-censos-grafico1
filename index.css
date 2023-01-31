@@ -194,10 +194,7 @@ body {
 .bl-tabs .tabs .tab:first-child {
     border-left: 1px solid #e1e1e1;
 }
-.bl-tabs .tabs .tab.tab-rrss {
-    width: 36px !important;
-    flex-shrink: 0;
-}   
+ 
 .bl-tabs .tabs .tab.active {
     background-color: #fff;
     color: #000;
